@@ -156,21 +156,37 @@
                 qualifiers="" >
                 <string name="title_section1" >Рекомендуем
                 </string>
+                <string name="action_balance" >        Баланс
+                </string>
+                <string name="title_balance" >        Баланс
+                </string>
                 <string name="action_settings" >Settings
                 </string>
                 <string name="title_section3" >Категории
                 </string>
                 <string name="title_section2" >Рейтинги
                 </string>
+                <string name="title_publications" >        Публикации
+                </string>
+                <string name="message_buy" >        Подтвердите покупку.
+                </string>
                 <string name="title_section4" >Жанры
                 </string>
                 <string name="message_rating" >        Рейтинг жанра
                 </string>
+                <string name="rub" >        руб.
+                </string>
                 <string name="label_login" >Email
+                </string>
+                <string name="action_mypublication" >Мои книги
+                </string>
+                <string name="title_chapter" >        Просмотр главы
+                </string>
+                <string name="menu_search" >        Искать публикации
                 </string>
                 <string name="buttontext_auth" >Авторизоваться
                 </string>
-                <string name="menu_search" >        Искать публикации
+                <string name="yes" >        Да
                 </string>
                 <string name="title_genresrating" >        Рейтинг жанра
                 </string>
@@ -179,6 +195,8 @@
                 <string name="message_autherror" >        Неверный логин или пароль
                 </string>
                 <string name="title_authorsrating" >        Рейтинг авторов
+                </string>
+                <string name="no" >        Нет
                 </string>
                 <string name="label_password" >Пароль
                 </string>
@@ -238,6 +256,26 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="activity_publicationdetails"
+                path="C:\Users\Artyom\AndroidStudioProjects\Ebookstore\Ebookstore\src\main\res\layout\activity_publicationdetails.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="listview_item_chapter"
+                path="C:\Users\Artyom\AndroidStudioProjects\Ebookstore\Ebookstore\src\main\res\layout\listview_item_chapter.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_chapter"
+                path="C:\Users\Artyom\AndroidStudioProjects\Ebookstore\Ebookstore\src\main\res\layout\activity_chapter.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_balance"
+                path="C:\Users\Artyom\AndroidStudioProjects\Ebookstore\Ebookstore\src\main\res\layout\activity_balance.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="C:\Users\Artyom\AndroidStudioProjects\Ebookstore\Ebookstore\build\res\rs\debug" />
     </dataSet>

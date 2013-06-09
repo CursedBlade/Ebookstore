@@ -11,12 +11,20 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="ru.ebook.store.PublicationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_publications" android:name="ru.ebook.store.PublicationActivity" android:screenOrientation="portrait"/>
 
         <activity android:label="@string/title_authorsrating" android:name="ru.ebook.store.AuthorsRatingActivity" android:screenOrientation="portrait">
         </activity>
         <activity android:label="@string/title_genresrating" android:name="ru.ebook.store.GenresRatingActivity" android:screenOrientation="portrait">
         </activity>
+
+        <activity android:label="@string/title_publications" android:name="ru.ebook.store.PublicationDetailsActivity" android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/title_chapter" android:name="ru.ebook.store.ChapterActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_balance" android:name="ru.ebook.store.BalanceActivity"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
 </manifest>

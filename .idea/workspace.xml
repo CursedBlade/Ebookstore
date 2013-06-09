@@ -27,25 +27,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56272d95-9cef-42b2-9a02-4561eeceea01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/BalanceActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ExtendActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_balance.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthorsRatingActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthorsRatingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/GenresRatingActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/GenresRatingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterChapters.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterChapters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/MainActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationDetailsActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationDetailsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/build/source/r/debug/ru/ebook/store/R.java" afterPath="$PROJECT_DIR$/Ebookstore/build/source/r/debug/ru/ebook/store/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/layout/listview_item_user.xml" afterPath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/layout/listview_item_user.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/listview_item_user.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/listview_item_user.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ebookstore.iws" />
@@ -242,10 +223,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PublicationDetailsActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PublicationDetailsActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationDetailsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="33" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0" vertical-offset="461" max-vertical-offset="1751">
+            <state line="41" column="55" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.51641136" vertical-offset="461" max-vertical-offset="1751">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,7 +245,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_balance.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_balance.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_balance.xml">
           <provider editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3077">
@@ -1007,7 +988,11 @@
       <created>1370783121415</created>
       <updated>1370783121415</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ContentView">
+      <created>1370802836018</created>
+      <updated>1370802836018</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1236,15 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="33" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0" vertical-offset="461" max-vertical-offset="1751">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="35" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1870">
@@ -1283,6 +1259,15 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="55" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.51641136" vertical-offset="461" max-vertical-offset="1751">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
