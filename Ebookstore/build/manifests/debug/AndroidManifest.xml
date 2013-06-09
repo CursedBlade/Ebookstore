@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="ru.ebook.store">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="16"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="ru.ebook.store.MainActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="ru.ebook.store.AuthActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.ebook.store.PublicationActivity" android:screenOrientation="portrait"/>
+
+        <activity android:label="@string/title_authorsrating" android:name="ru.ebook.store.AuthorsRatingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:label="@string/title_genresrating" android:name="ru.ebook.store.GenresRatingActivity" android:screenOrientation="portrait">
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
