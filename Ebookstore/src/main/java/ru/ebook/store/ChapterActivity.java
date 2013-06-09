@@ -43,6 +43,7 @@ public class ChapterActivity extends ExtendActivity {
             API api=API.getInstance();
             List<NameValuePair> params = new ArrayList<NameValuePair>();
             params.add(new BasicNameValuePair("id",String.valueOf(chapter)));
+            params.add(new BasicNameValuePair("publication",String.valueOf(publication)));
             try {
                 return new JSONObject(api.queryGet("chapters", params));
             } catch (JSONException e) {

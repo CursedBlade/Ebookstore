@@ -67,10 +67,12 @@ abstract public class ExtendActivity extends Activity {
                 b.putString("title",getString(R.string.action_mypublication));
                 intent.putExtras(b);
                 startActivity(intent);
+                return true;
             }
             case R.id.action_balance:{
                 Intent intent=new Intent(this,BalanceActivity.class);
                 startActivity(intent);
+                return true;
             }
             default:
                 return super.onOptionsItemSelected(item);
