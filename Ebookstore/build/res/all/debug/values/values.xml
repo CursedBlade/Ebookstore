@@ -13,8 +13,11 @@
     <string name="menu_search">        Искать публикации</string>
     <string name="message_autherror">        Неверный логин или пароль</string>
     <string name="message_rating">        Рейтинг жанра</string>
+    <string name="rub">        руб.</string>
     <string name="title_authorsrating">        Рейтинг авторов</string>
+    <string name="title_chapter">        Просмотр главы</string>
     <string name="title_genresrating">        Рейтинг жанра</string>
+    <string name="title_publications">        Публикации</string>
     <string name="title_section1">Рекомендуем</string>
     <string name="title_section2">Рейтинги</string>
     <string name="title_section3">Категории</string>
