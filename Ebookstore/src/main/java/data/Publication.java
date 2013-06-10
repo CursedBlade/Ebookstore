@@ -12,10 +12,12 @@ public class Publication {
     public int id;
     public String name;
     public String price;
+    public String author;
     Publication(JSONObject object){
         if(object!=null){
             this.id=object.optInt("id");
             this.name=object.optString("name");
+            this.author=object.optString("author_name");
             this.price=String.format("%.2f", object.optDouble("price"));
         }
     }

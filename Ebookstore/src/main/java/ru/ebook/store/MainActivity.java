@@ -1,6 +1,7 @@
 package ru.ebook.store;
 
 import android.app.ActionBar;
+import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
@@ -64,6 +65,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        DummySectionFragment.activity=this;
         Cache.setContext(getBaseContext());
         API.setContext(getBaseContext());
         setContentView(R.layout.activity_main);
@@ -139,6 +141,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                 Context context = getApplicationContext();
                 SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
                 b.putInt("author",prefs.getInt("id",0));
+                b.putBoolean("add",true);
                 b.putString("title",getString(R.string.action_mypublication));
                 intent.putExtras(b);
                 startActivity(intent);
@@ -219,7 +222,55 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
      * A dummy fragment representing a section of the app, but that simply
      * displays dummy text.
      */
-    public class DummySectionFragment extends Fragment {
+    public static class DummySectionFragment extends Fragment {
+        public static Activity activity;
+        public class GetPublications extends AsyncTask<Void, Void, JSONArray> {
+            public int genre=0;
+            public int category=0;
+            public String query=null;
+
+            @Override
+            protected JSONArray doInBackground(Void... voids) {
+                API api=API.getInstance();
+                List<NameValuePair> params = new ArrayList<NameValuePair>();
+                params.add(new BasicNameValuePair("random", "true"));
+
+                params.add(new BasicNameValuePair("limit", "10"));
+
+                try {
+                    return new JSONArray(api.queryGet("publication", params));
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+
+            @Override
+            protected void onPostExecute(JSONArray array){
+                super.onPostExecute(array);
+                //TextView textView=(TextView)findViewById(R.id.textView);
+                //textView.setText(object.toString());
+                GridView gridViewPublications=(GridView)activity.findViewById(R.id.publicationsLayout);
+
+
+
+                final Vector<Publication> v=Publication.fromJSONArray(array);
+                gridViewPublications.setAdapter(new GridAdapterPublications(activity, v));
+                activity.findViewById(R.id.progressBar).setVisibility(View.GONE);
+                gridViewPublications.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        Intent intent=new Intent(activity,PublicationDetailsActivity.class);
+                        Bundle b=new Bundle();
+                        b.putInt("publication",(int)l);
+                        b.putString("name",v.get(i).name);
+                        b.putString("price", v.get(i).price);
+                        intent.putExtras(b);
+                        startActivity(intent);
+                    }
+                });
+            }
+        }
         /**
          * The fragment argument representing the section number for this
          * fragment.
@@ -305,51 +356,5 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
 
     }
-    public class GetPublications extends AsyncTask<Void, Void, JSONArray> {
-        public int genre=0;
-        public int category=0;
-        public String query=null;
 
-        @Override
-        protected JSONArray doInBackground(Void... voids) {
-            API api=API.getInstance();
-            List<NameValuePair> params = new ArrayList<NameValuePair>();
-            params.add(new BasicNameValuePair("random", "true"));
-
-            params.add(new BasicNameValuePair("limit", "10"));
-
-            try {
-                return new JSONArray(api.queryGet("publication", params));
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(JSONArray array){
-            super.onPostExecute(array);
-            //TextView textView=(TextView)findViewById(R.id.textView);
-            //textView.setText(object.toString());
-            GridView gridViewPublications=(GridView)findViewById(R.id.publicationsLayout);
-
-
-
-            final Vector<Publication> v=Publication.fromJSONArray(array);
-            gridViewPublications.setAdapter(new GridAdapterPublications(MainActivity.this, v));
-            findViewById(R.id.progressBar).setVisibility(View.GONE);
-            gridViewPublications.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                    Intent intent=new Intent(MainActivity.this,PublicationDetailsActivity.class);
-                    Bundle b=new Bundle();
-                    b.putInt("publication",(int)l);
-                    b.putString("name",v.get(i).name);
-                    b.putString("price", v.get(i).price);
-                    intent.putExtras(b);
-                    startActivity(intent);
-                }
-            });
-        }
-    }
 }

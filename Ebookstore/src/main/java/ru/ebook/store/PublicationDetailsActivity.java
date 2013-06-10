@@ -14,9 +14,11 @@ import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
 import adapters.ListAdapterChapters;
 import data.Chapter;
@@ -30,6 +32,7 @@ public class PublicationDetailsActivity extends ExtendActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_publicationdetails);
         ((TextView)findViewById(R.id.publicationName)).setText(getIntent().getExtras().getString("name", ""));
+        ((TextView)findViewById(R.id.publicationAuthor)).setText(getIntent().getExtras().getString("author", ""));
         ((TextView)findViewById(R.id.publicationPrice)).setText(getIntent().getExtras().getString("price", "") + " " + getString(R.string.rub));
         GetChapters task=new GetChapters();
         task.publication=getIntent().getExtras().getInt("publication",0);
@@ -62,12 +65,13 @@ public class PublicationDetailsActivity extends ExtendActivity {
         protected void onPostExecute(JSONArray array){
             super.onPostExecute(array);
             ListView listViewChapters=(ListView)findViewById(R.id.listViewChapters);
-
-            listViewChapters.setAdapter(new ListAdapterChapters(PublicationDetailsActivity.this, Chapter.fromJSONArray(array)));
+            final Vector<Chapter> v=Chapter.fromJSONArray(array);
+            listViewChapters.setAdapter(new ListAdapterChapters(PublicationDetailsActivity.this, v));
             findViewById(R.id.progressBar).setVisibility(View.GONE);
             listViewChapters.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
-                public void onItemClick(AdapterView<?> adapterView, View view, int i,final long l) {
+                public void onItemClick(AdapterView<?> adapterView, View view, final int i,final long l) {
+                    if(!v.get(i).has){
                     new AlertDialog.Builder(PublicationDetailsActivity.this)
                             .setIcon(android.R.drawable.ic_dialog_alert)
                             .setTitle(R.string.message_buy)
@@ -76,7 +80,10 @@ public class PublicationDetailsActivity extends ExtendActivity {
 
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
-
+                                    MakePurchase mp=new MakePurchase();
+                                    mp.chapter=(int)l;
+                                    mp.execute();
+                                    v.get(i).has=true;
                                     Intent intent = new Intent(getBaseContext(), ChapterActivity.class);
                                     Bundle b = new Bundle();
                                     b.putInt("chapter", (int)l); //Your id
@@ -88,9 +95,38 @@ public class PublicationDetailsActivity extends ExtendActivity {
                             })
                             .setNegativeButton(R.string.no, null)
                             .show();
+                    }
+                    else{
 
+                        Intent intent = new Intent(getBaseContext(), ChapterActivity.class);
+                        Bundle b = new Bundle();
+                        b.putInt("chapter", (int)l); //Your id
+                        b.putInt("publication", publication); //Your id
+                        intent.putExtras(b); //Put your id to your next Intent
+                        startActivity(intent);
+                    }
                 }
             });
+        }
+    }
+    public class MakePurchase extends AsyncTask<Void, Void, JSONObject> {
+        public int chapter=0;
+        @Override
+        protected JSONObject doInBackground(Void... voids) {
+            API api=API.getInstance();
+            JSONObject params = new JSONObject();
+            try {
+                params.put("chapter",chapter);
+                return new JSONObject(api.queryPost("purchases", params));
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(JSONObject object){
+            super.onPostExecute(object);
         }
     }
 }

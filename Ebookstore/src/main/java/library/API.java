@@ -91,7 +91,8 @@ public class API {
         return responseText;
     }
     public String queryPost(String name,JSONObject params) {
-        HttpPost request=new HttpPost(this.host+name);
+
+        HttpPost request=new HttpPost(this.host+name+"?access_token="+API.accessToken);
         request.setHeader("Accept", this.contentType);
         request.setHeader("Content-Type", this.contentType);
         if(params!=null){

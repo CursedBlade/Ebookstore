@@ -44,4 +44,8 @@ public class Genre {
         genres.insertElementAt(f,0);
         return genres;
     }
+    @Override
+    public String toString(){
+        return this.name;
+    }
 }

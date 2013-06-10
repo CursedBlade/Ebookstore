@@ -5,6 +5,14 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/publicationAuthor"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textStyle="italic"/>
+
     <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -34,7 +42,7 @@
             android:layout_gravity="center_horizontal"/>
 
     <ListView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/listViewChapters"
             android:layout_gravity="center"

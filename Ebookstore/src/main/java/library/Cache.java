@@ -35,7 +35,7 @@ public class Cache {
     /**
      * Возраст кэша. По умолчанию - 5 минут.
      */
-    public static int cacheAge = 1000 * 60 * 5;
+    public static int cacheAge = 1000 * 30;
 
     /**
      * Передача контекста

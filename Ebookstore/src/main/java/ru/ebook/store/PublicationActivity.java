@@ -39,6 +39,9 @@ public class PublicationActivity extends ExtendActivity {
     }
     @Override
      public boolean onCreateOptionsMenu(Menu menu) {
+        if(getIntent().getExtras().getBoolean("add", false)){
+            getMenuInflater().inflate(R.menu.add, menu);
+        }
         boolean res=super.onCreateOptionsMenu(menu);
         SearchView searchView = (SearchView) menu.findItem(R.id.menu_search).getActionView();
         // Configure the search info and add any event listeners
@@ -118,6 +121,7 @@ public class PublicationActivity extends ExtendActivity {
                     Bundle b=new Bundle();
                     b.putInt("publication",(int)l);
                     b.putString("name",v.get(i).name);
+                    b.putString("author",v.get(i).author);
                     b.putString("price",v.get(i).price);
                     intent.putExtras(b);
                     startActivity(intent);

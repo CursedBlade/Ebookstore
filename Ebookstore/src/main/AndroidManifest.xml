@@ -16,44 +16,40 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="MainActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait">
+            android:label="@string/app_name">
         </activity>
-        <activity android:name=".AuthActivity" android:screenOrientation="portrait">
+        <activity android:name=".AuthActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity android:name="PublicationActivity"
-                  android:label="@string/title_publications"
-                  android:screenOrientation="portrait"/>
+                  android:label="@string/title_publications"/>
 
         <activity
                 android:name="AuthorsRatingActivity"
-                android:label="@string/title_authorsrating"
-                android:screenOrientation="portrait">
+                android:label="@string/title_authorsrating">
         </activity>
         <activity
                 android:name="GenresRatingActivity"
-                android:label="@string/title_genresrating"
-                android:screenOrientation="portrait">
+                android:label="@string/title_genresrating">
         </activity>
 
         <activity
                 android:name="PublicationDetailsActivity"
-                android:label="@string/title_publications"
-                android:screenOrientation="portrait">
+                android:label="@string/title_publications">
         </activity>
 
         <activity
                 android:name="ChapterActivity"
-                android:label="@string/title_chapter"
-                android:screenOrientation="portrait">
+                android:label="@string/title_chapter">
         </activity>
         <activity
                 android:name="BalanceActivity"
                 android:label="@string/title_balance"/>
+        <activity android:name="PublicationAddActivity"
+                  android:label="@string/action_add"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.android.vending.BILLING" />

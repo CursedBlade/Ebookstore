@@ -26,4 +26,8 @@ public class Category {
         }
         return categories;
     }
+    @Override
+    public String toString(){
+        return this.name;
+    }
 }

@@ -64,8 +64,14 @@ abstract public class ExtendActivity extends Activity {
                 Context context = getApplicationContext();
                 SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
                 b.putInt("author",prefs.getInt("id",0));
+                b.putBoolean("add",true);
                 b.putString("title",getString(R.string.action_mypublication));
                 intent.putExtras(b);
+                startActivity(intent);
+                return true;
+            }
+            case R.id.action_add:{
+                Intent intent=new Intent(this,PublicationAddActivity.class);
                 startActivity(intent);
                 return true;
             }

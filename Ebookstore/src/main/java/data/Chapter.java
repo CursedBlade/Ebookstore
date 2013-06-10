@@ -12,10 +12,12 @@ public class Chapter {
     public int id;
     public String name;
     public String price;
+    public Boolean has;
     Chapter(JSONObject object){
         if(object!=null){
             this.id=object.optInt("id");
             this.name=object.optString("name");
+            this.has=object.optBoolean("has");
             this.price=String.format("%.2f", object.optDouble("price"));
         }
     }
