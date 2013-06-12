@@ -131,6 +131,14 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()) {
+            case R.id.action_addchapter:{
+                Intent intent=new Intent(this,ChapterAddActivity.class);
+                Bundle b=new Bundle();
+                b.putInt("publication",getIntent().getExtras().getInt("publication",0));
+                intent.putExtras(b);
+                startActivity(intent);
+                return true;
+            }
             case android.R.id.home:
                 // app icon in action bar clicked; go home
                 finish();
@@ -141,7 +149,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                 Context context = getApplicationContext();
                 SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
                 b.putInt("author",prefs.getInt("id",0));
-                b.putBoolean("add",true);
+                b.putBoolean("edit",true);
                 b.putString("title",getString(R.string.action_mypublication));
                 intent.putExtras(b);
                 startActivity(intent);
@@ -264,7 +272,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                         Bundle b=new Bundle();
                         b.putInt("publication",(int)l);
                         b.putString("name",v.get(i).name);
-                        b.putString("price", v.get(i).price);
+                        b.putDouble("price", v.get(i).price);
                         intent.putExtras(b);
                         startActivity(intent);
                     }
@@ -284,6 +292,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            try{
             TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
             int sectionNumber=getArguments().getInt(ARG_SECTION_NUMBER);
             if(sectionNumber==1){
@@ -349,6 +358,10 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             }
             else{
                 dummyTextView.setText(String.valueOf(sectionNumber));
+            }
+            }
+            catch(Exception e){
+                //Ничего=)
             }
             //rootView.
             return rootView;

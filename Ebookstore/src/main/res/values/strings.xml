@@ -54,6 +54,11 @@
     <string name="title_balance">
         Баланс
     </string>
+    <string name="action_editchapter">Редактировать главу</string>
     <string name="action_add">Добавить публикацию</string><string name="label_name">Название</string><string name="label_category">Категория</string><string name="label_genre">Жанр</string><string name="button_add">Добавить</string>
-
+    <string name="message_fillerror">Не все поля заполнены</string>
+    <string name="message_wait">Подождите...</string>
+    <string name="message_chapteradd">Глава добавлена.</string>
+    <string name="message_chaptersave">Глава сохранена.</string>
+    <string name="message_publicationadd">Публикация добавлена.</string><string name="action_addchapter">Добавить главу</string><string name="label_price">Цена</string>
 </resources>

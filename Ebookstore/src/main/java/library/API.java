@@ -20,10 +20,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Artyom on 5/27/13.
+ * Created by Artyom on 5/7/13.
  */
 public class API {
-    private String contentType="application/json";
+    /**
+     * Тип запроса
+     */
+    private static String contentType="application/json";
     public static String accessToken;
     private static API instance=null;
     protected String host="http://book-store.azurewebsites.net/";
@@ -33,13 +36,26 @@ public class API {
         if (context == null)
             context = ctxt;
     }
+
+    /**
+     * текущий контекст приложения
+     * @return
+     */
     public static Context getContext() {
 
         return  context;
     }
+
+    /**
+     * инициализация подключения к интернету
+     */
     private API(){
         this.checkHttpClient();
     }
+
+    /**
+     * проверка подключения
+     */
     private void checkHttpClient(){
         if(this.client==null){
             this.client=new DefaultHttpClient();
@@ -52,6 +68,12 @@ public class API {
         return API.instance;
     }
 
+    /**
+     * GET запрос
+     * @param name
+     * @param params
+     * @return
+     */
     public String queryGet(String name,List<NameValuePair> params) {
         HttpGet request;
         StringBuilder paramsString=new StringBuilder();
@@ -90,6 +112,13 @@ public class API {
         Cache.putCache(url,responseText);
         return responseText;
     }
+
+    /**
+     * POST запрос
+     * @param name
+     * @param params
+     * @return
+     */
     public String queryPost(String name,JSONObject params) {
 
         HttpPost request=new HttpPost(this.host+name+"?access_token="+API.accessToken);

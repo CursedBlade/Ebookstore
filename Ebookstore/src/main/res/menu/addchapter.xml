@@ -2,8 +2,8 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/action_add"
-          android:title="@string/action_add"
+    <item android:id="@+id/action_addchapter"
+          android:title="@string/action_addchapter"
           android:icon="@drawable/content_new"
           android:showAsAction="ifRoom|collapseActionView" />
 </menu>

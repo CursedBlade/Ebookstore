@@ -50,6 +50,7 @@
                 android:label="@string/title_balance"/>
         <activity android:name="PublicationAddActivity"
                   android:label="@string/action_add"/>
+        <activity android:name=".ChapterAddActivity"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.android.vending.BILLING" />

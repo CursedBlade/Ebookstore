@@ -39,7 +39,7 @@ public class PublicationActivity extends ExtendActivity {
     }
     @Override
      public boolean onCreateOptionsMenu(Menu menu) {
-        if(getIntent().getExtras().getBoolean("add", false)){
+        if(getIntent().getExtras().getBoolean("edit", false)){
             getMenuInflater().inflate(R.menu.add, menu);
         }
         boolean res=super.onCreateOptionsMenu(menu);
@@ -122,7 +122,10 @@ public class PublicationActivity extends ExtendActivity {
                     b.putInt("publication",(int)l);
                     b.putString("name",v.get(i).name);
                     b.putString("author",v.get(i).author);
-                    b.putString("price",v.get(i).price);
+                    if(getIntent().getExtras().getBoolean("edit", false)){
+                        b.putBoolean("edit",true);
+                    }
+                    b.putDouble("price",v.get(i).price);
                     intent.putExtras(b);
                     startActivity(intent);
                 }

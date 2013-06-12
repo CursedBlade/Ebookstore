@@ -16,14 +16,18 @@ import android.widget.SearchView;
  */
 abstract public class ExtendActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
-        if(getIntent().getExtras()!=null && getIntent().getExtras().getString("title")!=null){
-            setTitle(getIntent().getExtras().getString("title"));
+        try{
+            if(getIntent().getExtras()!=null && getIntent().getExtras().getString("title")!=null){
+                setTitle(getIntent().getExtras().getString("title"));
+            }
+            ActionBar actionBar = getActionBar();
+            actionBar.setDisplayHomeAsUpEnabled(true);
+
+            super.onCreate(savedInstanceState);
         }
-        ActionBar actionBar = getActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        catch(Exception e){
 
-        super.onCreate(savedInstanceState);
-
+        }
 
     }
     @Override
@@ -64,8 +68,16 @@ abstract public class ExtendActivity extends Activity {
                 Context context = getApplicationContext();
                 SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
                 b.putInt("author",prefs.getInt("id",0));
-                b.putBoolean("add",true);
+                b.putBoolean("edit",true);
                 b.putString("title",getString(R.string.action_mypublication));
+                intent.putExtras(b);
+                startActivity(intent);
+                return true;
+            }
+            case R.id.action_addchapter:{
+                Intent intent=new Intent(this,ChapterAddActivity.class);
+                Bundle b=new Bundle();
+                b.putInt("publication",getIntent().getExtras().getInt("publication",0));
                 intent.putExtras(b);
                 startActivity(intent);
                 return true;

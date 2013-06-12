@@ -21,15 +21,20 @@ import library.API;
  */
 public class AuthActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        String token=getAccessToken();
-        if(token!=null){
-            API.accessToken=token;
-            startActivity(new Intent(this, MainActivity.class));
-            finish();
+        try{
+            super.onCreate(savedInstanceState);
+            String token=getAccessToken();
+            if(token!=null){
+                API.accessToken=token;
+                startActivity(new Intent(this, MainActivity.class));
+                finish();
+            }
+            else{
+                setContentView(R.layout.activity_auth);
+            }
         }
-        else{
-            setContentView(R.layout.activity_auth);
+        catch(Exception e){
+
         }
     }
     public void tryAuth(View v){

@@ -31,7 +31,15 @@
                     android:id="@+id/textViewContent"
                     android:singleLine="false"
                     android:padding="@dimen/activity_vertical_margin"/>
-
+            <EditText
+                    android:id="@+id/editTextContent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:background="@android:color/transparent"
+                    android:visibility="gone">
+            </EditText>
         </LinearLayout>
     </ScrollView>
 

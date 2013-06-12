@@ -72,7 +72,7 @@ public class GenresRatingActivity extends ExtendActivity {
                     Bundle b=new Bundle();
                     b.putInt("publication",(int)l);
                     b.putString("name",v.get(i).name);
-                    b.putString("price",v.get(i).price);
+                    b.putDouble("price",v.get(i).price);
                     intent.putExtras(b);
                     startActivity(intent);
                 }

@@ -53,7 +53,13 @@ public class BalanceActivity extends ExtendActivity {
         @Override
         protected void onPostExecute(JSONObject object){
             super.onPostExecute(object);
-            ((TextView)findViewById(R.id.balance)).setText(object.optString("balance"));
+            String balanceStr=object.optString("balance");
+
+            if(balanceStr!=null && balanceStr.contains(".")){
+                balanceStr=balanceStr.substring(0,Math.min(balanceStr.indexOf('.')+3,balanceStr.length()-1));
+            }
+
+            ((TextView)findViewById(R.id.balance)).setText(balanceStr+" "+getString(R.string.rub));
             ((TextView)findViewById(R.id.name)).setText(object.optString("name"));
             findViewById(R.id.progressBar).setVisibility(View.GONE);
         }

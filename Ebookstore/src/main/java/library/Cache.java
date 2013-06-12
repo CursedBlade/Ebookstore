@@ -60,7 +60,7 @@ public class Cache {
     /**
      * Добавление кэша. Если кэш уже был, он перезапишется.
      * @param key ключ, по которому можно будет получить кэш
-     * @param value значение кэша. JSON объект.
+     * @param value значение кэша. строка.
      */
     static void putCache(String key, String value) {
         FileOutputStream fout;
@@ -82,7 +82,7 @@ public class Cache {
         }
     }
     /**
-     * Получение кэша в виоде json объекта. Если кэша нет, вернется null.
+     * Получение кэша в виоде строки. Если кэша нет, вернется null.
      * @param key ключ, по которому кэш был добавлен.
      * @return
      */
