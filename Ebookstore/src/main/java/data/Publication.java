@@ -6,7 +6,7 @@ import org.json.JSONObject;
 import java.util.Vector;
 
 /**
- * Created by artyomvursalov on 04.06.13.
+ * Created by Artyom on 6/1/13.
  */
 public class Publication {
     /**

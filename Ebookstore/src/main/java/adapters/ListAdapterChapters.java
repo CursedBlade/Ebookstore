@@ -48,7 +48,12 @@ public class ListAdapterChapters extends BaseAdapter {
         int id= R.layout.listview_item_chapter;
         View convertView = mInflater.inflate(id, null);
         TextView txtView=(TextView)convertView.findViewById(R.id.chapter);
-        txtView.setText(items.get(arg0).name+" ("+items.get(arg0).price+" "+ API.getContext().getString(R.string.rub)+")");
+        if(items.get(arg0).has){
+            txtView.setText(items.get(arg0).name+" ("+API.getContext().getString(R.string.purchased)+")");
+        }
+        else{
+            txtView.setText(items.get(arg0).name+" ("+items.get(arg0).price+" "+ API.getContext().getString(R.string.rub)+")");
+        }
         return convertView;
     }
 

@@ -18,7 +18,7 @@ import library.API;
 import ru.ebook.store.R;
 
 /**
- * Created by artyomvursalov on 04.06.13.
+ * Created by Artyom on 6/1/13.
  */
 public class GridAdapterPublications extends BaseAdapter {
     private Activity activity;

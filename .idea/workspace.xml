@@ -26,48 +26,14 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56272d95-9cef-42b2-9a02-4561eeceea01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable/content_new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-hdpi/content_new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-mdpi/content_new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-xhdpi/content_new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable/ic_action_done.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-hdpi/ic_action_done.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-mdpi/ic_action_done.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-xhdpi/ic_action_done.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable/ic_action_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-hdpi/ic_action_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-mdpi/ic_action_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-xhdpi/ic_action_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/drawable-xxhdpi/ic_action_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterAddActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_chapteradd.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/menu/addchapter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/menu/editchapter.xml" />
-      <change type="DELETED" beforePath="C:\Users\Artyom\AndroidStudioProjects\Ebookstore\Ebookstore\src\main\res\menu\edit.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/library/API.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/library/API.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/AndroidManifest.xml" />
+    <list default="true" id="56272d95-9cef-42b2-9a02-4561eeceea01" name="Default" comment="Version 0.3">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/BalanceActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/BalanceActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/library/Cache.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/library/Cache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/data/Category.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/data/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/data/Chapter.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/data/Chapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ExtendActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ExtendActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/data/Genre.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/data/Genre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/GenresRatingActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/GenresRatingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/MainActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/adapters/GridAdapterPublications.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/adapters/GridAdapterPublications.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterChapters.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterChapters.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/data/Publication.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/data/Publication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationAddActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationAddActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationDetailsActivity.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationDetailsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/build/source/r/debug/ru/ebook/store/R.java" afterPath="$PROJECT_DIR$/Ebookstore/build/source/r/debug/ru/ebook/store/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/java/data/User.java" afterPath="$PROJECT_DIR$/Ebookstore/src/main/java/data/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/layout/activity_chapter.xml" afterPath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/layout/activity_chapter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_chapter.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_chapter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_publicationadd.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_publicationadd.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/res/menu/add.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/menu/add.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/layout/activity_balance.xml" afterPath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/layout/activity_balance.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_balance.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_balance.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Ebookstore/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Ebookstore/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -93,6 +59,43 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterAddActivity.java" line="70" class="ru.ebook.store.ChapterAddActivity.MakeChapter" package="ru.ebook.store">
         <option name="ENABLED" value="true" />
@@ -184,44 +187,37 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/BalanceActivity.java" line="58" class="ru.ebook.store.BalanceActivity.GetUser" package="ru.ebook.store">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/BalanceActivity.java" line="61" class="ru.ebook.store.BalanceActivity.GetUser" package="ru.ebook.store">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -231,108 +227,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Chapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/Chapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="7" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1088">
-              <folding>
-                <element signature="e#1179#1188#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Publication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/Publication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListAdapterUsers.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterUsers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="11" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="884">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExtendActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ExtendActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="40" selection-start="1931" selection-end="1952" vertical-scroll-proportion="0.0" vertical-offset="1175" max-vertical-offset="1632">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChapterActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="24" selection-start="4943" selection-end="4943" vertical-scroll-proportion="0.0" vertical-offset="1682" max-vertical-offset="2261">
-              <folding>
-                <element signature="e#3051#3083#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Genre.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/Genre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
-              <folding>
-                <element signature="e#901#908#0" expanded="true" />
-                <element signature="e#1339#1346#0" expanded="true" />
-                <element signature="e#1539#1590#0" expanded="true" />
-                <element signature="e#1699#1755#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="935">
-              <folding>
-                <element signature="e#1078#1084#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="API.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/library/API.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="58" selection-start="3227" selection-end="3281" vertical-scroll-proportion="0.0" vertical-offset="2144" max-vertical-offset="2601">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/Category.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="125" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1020">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cache.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Cache.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/library/Cache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="61" selection-start="2675" selection-end="2732" vertical-scroll-proportion="-0.3783784" vertical-offset="1596" max-vertical-offset="2040">
+            <state line="37" column="42" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2261">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalanceActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/BalanceActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="0" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_balance.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_balance.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="13" column="45" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2873">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PublicationActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="13" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="2380">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListAdapterChapters.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterChapters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="9" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1122">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="14" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.6088561" vertical-offset="537" max-vertical-offset="1241">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetCategories.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/async/GetCategories.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="11" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetGenres.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/async/GetGenres.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="9" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2176">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetGenresForRatings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/async/GetGenresForRatings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
@@ -399,22 +381,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthActivity.java" />
-        <option value="$PROJECT_DIR$/Ebookstore/src/main/res/menu/editchapter.xml" />
-        <option value="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationDetailsActivity.java" />
-        <option value="$PROJECT_DIR$/Ebookstore/src/main/java/library/Cache.java" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/BalanceActivity.java" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ExtendActivity.java" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_chapter.xml" />
-        <option value="$PROJECT_DIR$/Ebookstore/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterActivity.java" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterUsers.java" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/java/data/User.java" />
-        <option value="$PROJECT_DIR$/Ebookstore/src/main/java/data/Publication.java" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/java/data/Genre.java" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/java/data/Category.java" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/java/data/Chapter.java" />
         <option value="$PROJECT_DIR$/Ebookstore/src/main/java/library/API.java" />
+        <option value="$PROJECT_DIR$/Ebookstore/src/main/java/data/Publication.java" />
+        <option value="$PROJECT_DIR$/Ebookstore/src/main/java/adapters/GridAdapterPublications.java" />
+        <option value="$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthActivity.java" />
+        <option value="$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_balance.xml" />
+        <option value="$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterChapters.java" />
+        <option value="$PROJECT_DIR$/Ebookstore/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -458,7 +440,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -535,7 +516,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -599,9 +670,185 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="async" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ebookstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Ebookstore-Ebookstore">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Ebookstore">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Ebookstore-Ebookstore">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Ebookstore">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Ebookstore-Ebookstore">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Ebookstore">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="res">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Ebookstore-Ebookstore">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Ebookstore">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="res">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="layout">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -890,7 +1137,11 @@
       <created>1370851132343</created>
       <updated>1370851132343</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Version 0.3">
+      <created>1371062820043</created>
+      <updated>1371062820043</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -903,11 +1154,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.091822095" sideWeight="0.67270195" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.108321376" sideWeight="0.67270195" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.67270195" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.56958395" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1908078" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1908078" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259053" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24316546" sideWeight="0.2869081" order="3" side_tool="true" content_ui="tabs" />
@@ -915,15 +1164,17 @@
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.67270195" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.67270195" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24892396" sideWeight="0.67270195" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.67270195" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26901004" sideWeight="0.67270195" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26901004" sideWeight="0.8091922" order="0" side_tool="false" content_ui="combo" x="527" y="24" width="439" height="882" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28133705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.67270195" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -996,7 +1247,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 0.2.1 (Fixes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.3" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1020,140 +1271,135 @@
     <MESSAGE value="Fix100500" />
     <MESSAGE value="Version 0.2." />
     <MESSAGE value="Version 0.2.1 (Fixes)" />
+    <MESSAGE value="Version 0.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthActivity.java">
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/layout/fragment_genres.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="91" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1598">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_chapter.xml">
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/layout/gridview_item_publication.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_chapteradd.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="42" column="23" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_auth.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/async/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/async/GetCategories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="11" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/async/GetGenresForRatings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/async/GetGenres.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/AuthActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="9" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/library/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="42" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2261">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/BalanceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/layout/activity_balance.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/drawable-xhdpi/ic_action_done.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+      <provider editor-type-id="text-editor">
+        <state line="13" column="45" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2873">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterAddActivity.java">
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/PublicationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="5" selection-start="1234" selection-end="2774" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1275">
+        <state line="39" column="13" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="2380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterChapters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="9" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="52" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ChapterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="24" selection-start="4943" selection-end="4943" vertical-scroll-proportion="0.0" vertical-offset="1682" max-vertical-offset="2261">
-          <folding>
-            <element signature="e#3051#3083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/adapters/ListAdapterUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="11" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="884">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/ru/ebook/store/ExtendActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="40" selection-start="1931" selection-end="1952" vertical-scroll-proportion="0.0" vertical-offset="1175" max-vertical-offset="1632">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="935">
-          <folding>
-            <element signature="e#1078#1084#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/Publication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
-          <folding>
-            <element signature="e#901#908#0" expanded="true" />
-            <element signature="e#1339#1346#0" expanded="true" />
-            <element signature="e#1539#1590#0" expanded="true" />
-            <element signature="e#1699#1755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="125" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/data/Chapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="7" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1088">
-          <folding>
-            <element signature="e#1179#1188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/library/API.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="58" selection-start="3227" selection-end="3281" vertical-scroll-proportion="0.0" vertical-offset="2144" max-vertical-offset="2601">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebookstore/src/main/java/library/Cache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="61" selection-start="2675" selection-end="2732" vertical-scroll-proportion="-0.3783784" vertical-offset="1596" max-vertical-offset="2040">
+        <state line="51" column="14" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.6088561" vertical-offset="537" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>

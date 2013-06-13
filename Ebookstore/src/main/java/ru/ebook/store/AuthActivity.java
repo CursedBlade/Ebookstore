@@ -57,15 +57,32 @@ public class AuthActivity extends Activity {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         return prefs.getString("access_token",null);
     }
+
+    /**
+     * Асинхронная авторизация
+     */
     public class Auth extends AsyncTask<Void, Void, JSONObject> {
+        /**
+         * Логин
+         */
         public String email;
+        /**
+         * Пароль
+         */
         public String password;
+        /**
+         * Показ прогрессбара
+         */
         @Override
         protected void onPreExecute(){
             super.onPreExecute();
             findViewById(R.id.progressBar).setVisibility(View.VISIBLE);
-
         }
+        /**
+         * Запрос авторизациии
+         * @param voids
+         * @return
+         */
         @Override
         protected JSONObject doInBackground(Void... voids) {
             API api=API.getInstance();
@@ -83,7 +100,10 @@ public class AuthActivity extends Activity {
             }
             return null;
         }
-
+        /**
+         * Действия после получения ответа от сервера
+         * @param object - ответ сервера
+         */
         @Override
         protected void onPostExecute(JSONObject object){
             super.onPostExecute(object);

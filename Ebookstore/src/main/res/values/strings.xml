@@ -54,6 +54,9 @@
     <string name="title_balance">
         Баланс
     </string>
+    <string name="purchased">
+        Куплено
+    </string>
     <string name="action_editchapter">Редактировать главу</string>
     <string name="action_add">Добавить публикацию</string><string name="label_name">Название</string><string name="label_category">Категория</string><string name="label_genre">Жанр</string><string name="button_add">Добавить</string>
     <string name="message_fillerror">Не все поля заполнены</string>
